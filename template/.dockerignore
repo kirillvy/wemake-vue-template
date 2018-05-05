@@ -132,5 +132,4 @@ bower_components/
 dist/
 
 #### custom ####
-flow-typed/
 .nuxt/
