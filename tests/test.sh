@@ -11,4 +11,4 @@ cd 'test-project'
 cp 'config/.env.template' 'config/.env'
 
 # Running integration tests with docker:
-docker-compose run vue "ls flow-typed/npm && cat flow-typed/npm/axios_v0.18.x.js && yarn test"
+docker-compose run vue "pwd && ls && ls flow-typed/npm"
